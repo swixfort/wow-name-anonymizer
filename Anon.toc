@@ -1,0 +1,8 @@
+## Interface: 100005
+## Title: Chat Character Ananomizer
+## Notes: Ananomizes character names in chat (for streamers for example)
+## Author: Stefan Wixfort
+## Version: v0.0.1
+
+#Anon.xml
+Anon.lua
