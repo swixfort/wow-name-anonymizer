@@ -22,8 +22,8 @@ jobs:
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          automatic_release_tag: latest
-          title: 10.0.5_${{ github.run_number }}
+          automatic_release_tag: v10.0.5_${{ github.run_number }}
+          title: v10.0.5_${{ github.run_number }}
           prerelease: false
 
       - name: Upload Release Asset
