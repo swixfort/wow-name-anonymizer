@@ -4,5 +4,5 @@
 ## Author: Stefan Wixfort
 ## Version: v0.0.1
 
-#Anon.xml
-Anon.lua
+#Anonymizer.xml
+Anonymizer.lua
