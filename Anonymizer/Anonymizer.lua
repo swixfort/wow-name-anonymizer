@@ -32,8 +32,8 @@ end
 function mod:onChatMessage(event, msg, author, ...)
   local args = { ... }
   if not CAPsyeudonyms[author] then
-    local playerInfo = {GetPlayerInfoByGUID(args[10])}
-    local pseudonym = playerInfo.localizedClass .. math.random(1000, 9999)
+    local localizedClass, englishClass, localizedRace, englishRace, sex, name, realm = GetPlayerInfoByGUID(args[10])
+    local pseudonym = localizedClass .. math.random(1000, 9999)
     mod:setPseudonym(pseudonym, author)
   end
 
